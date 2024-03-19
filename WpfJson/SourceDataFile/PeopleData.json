@@ -1,0 +1,30 @@
+[
+  {
+    "FirstName": "Snir",
+    "LastName": "Elgabsi",
+    "Gender": "male",
+    "Age": 40,
+    "Number": "050-8432110"
+  },
+  {
+    "FirstName": "Michal",
+    "LastName": "Elgabsi",
+    "Gender": "female",
+    "Age": 39,
+    "Number": "050-7146499"
+  },
+  {
+    "FirstName": "Bb",
+    "LastName": "Ntnyhu",
+    "Gender": null,
+    "Age": 80,
+    "Number": "12345"
+  },
+  {
+    "FirstName": "dwd",
+    "LastName": "asd",
+    "Gender": "male",
+    "Age": 23,
+    "Number": "123"
+  }
+]

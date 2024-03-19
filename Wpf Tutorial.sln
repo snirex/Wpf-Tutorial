@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{E762F2D2-84AD-40B2-90FC-201882992175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCommands", "WpfCommands\WpfCommands.csproj", "{9FCFB9B5-9497-4E46-B367-7B1914305EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCustomCommands", "WpfCustomCommands\WpfCustomCommands.csproj", "{9F7CEACF-93A7-4C55-8A8A-DDECA044882A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDataTemplate1", "WpfDataTemplate1\WpfDataTemplate1.csproj", "{BD4455AE-C122-4DEC-82A9-8C182BA581D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfDispatcherThread", "WpfDispatcherThread\WpfDispatcherThread.csproj", "{53B48499-7FD8-4976-B525-7ACA9CEBEBF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_DepedencyProperty", "Wpf_DepedencyProperty\Wpf_DepedencyProperty.csproj", "{166A9A70-4162-47E2-BDF9-E81CD068206B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfJson", "WpfJson\WpfJson.csproj", "{9C871F39-B158-4BA9-AEB4-FC6D7752B516}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E762F2D2-84AD-40B2-90FC-201882992175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E762F2D2-84AD-40B2-90FC-201882992175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E762F2D2-84AD-40B2-90FC-201882992175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E762F2D2-84AD-40B2-90FC-201882992175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FCFB9B5-9497-4E46-B367-7B1914305EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FCFB9B5-9497-4E46-B367-7B1914305EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FCFB9B5-9497-4E46-B367-7B1914305EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FCFB9B5-9497-4E46-B367-7B1914305EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7CEACF-93A7-4C55-8A8A-DDECA044882A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7CEACF-93A7-4C55-8A8A-DDECA044882A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7CEACF-93A7-4C55-8A8A-DDECA044882A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7CEACF-93A7-4C55-8A8A-DDECA044882A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4455AE-C122-4DEC-82A9-8C182BA581D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4455AE-C122-4DEC-82A9-8C182BA581D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4455AE-C122-4DEC-82A9-8C182BA581D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4455AE-C122-4DEC-82A9-8C182BA581D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B48499-7FD8-4976-B525-7ACA9CEBEBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B48499-7FD8-4976-B525-7ACA9CEBEBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B48499-7FD8-4976-B525-7ACA9CEBEBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B48499-7FD8-4976-B525-7ACA9CEBEBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166A9A70-4162-47E2-BDF9-E81CD068206B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166A9A70-4162-47E2-BDF9-E81CD068206B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166A9A70-4162-47E2-BDF9-E81CD068206B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166A9A70-4162-47E2-BDF9-E81CD068206B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C871F39-B158-4BA9-AEB4-FC6D7752B516}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C871F39-B158-4BA9-AEB4-FC6D7752B516}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C871F39-B158-4BA9-AEB4-FC6D7752B516}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C871F39-B158-4BA9-AEB4-FC6D7752B516}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8894776-4739-4BFA-A3C6-445593FEBE93}
+	EndGlobalSection
+EndGlobal

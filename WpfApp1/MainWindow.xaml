@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="500">
+    <Window.Resources>
+        <ControlTemplate x:Key="customButton" TargetType="Button">
+            <Grid>
+                <Ellipse x:Name="theEllipse" Fill="{TemplateBinding Background}" Stroke="{TemplateBinding Foreground}" MaxWidth="100" />
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Grid>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Fill" TargetName="theEllipse" Value="LightGreen"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Window.Resources>
+
+    <StackPanel Margin="10">
+        <Button Content="Button1" Template="{StaticResource customButton}" Width="65" Height="65"/>
+    </StackPanel>
+</Window>
